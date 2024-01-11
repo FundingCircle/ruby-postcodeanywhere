@@ -6,3 +6,7 @@ AllCops:
   ExtraDetails: true
   UseCache: true
   NewCops: enable
+  SuggestExtensions: false
+
+Style/HashSyntax:
+  EnforcedShorthandSyntax: never
