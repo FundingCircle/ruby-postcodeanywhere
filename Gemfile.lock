@@ -90,7 +90,6 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
-  ruby
 
 DEPENDENCIES
   rake
@@ -100,4 +99,4 @@ DEPENDENCIES
   webmock
 
 BUNDLED WITH
-   2.5.4
+   2.3.26

@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.name = 'ruby-postcodeanywhere'
   s.version = '0.3.0'
 
-  s.required_ruby_version = '>= 2.7.0'
+  s.required_ruby_version = '>= 2.5.0'
 
   s.authors       = ['Funding Circle']
   s.email         = ['engineering@fundingcircle.com']
