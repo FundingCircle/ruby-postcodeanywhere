@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Gem::Specification.new do |s|
   s.name = 'ruby-postcodeanywhere'
   s.version = '0.3.0'

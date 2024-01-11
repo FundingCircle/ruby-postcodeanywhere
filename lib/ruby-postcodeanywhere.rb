@@ -73,7 +73,7 @@ module PostcodeAnywhere
     end
 
     def fetch(id)
-      options = { id: id }
+      options = { id: }
       options.merge!(license_information)
 
       data = PostcodeSearch.get(ADDRESS_FETCH, { query: options })
