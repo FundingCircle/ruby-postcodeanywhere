@@ -88,6 +88,8 @@ module PostcodeAnywhere
     attr_accessor(*ATTRIBUTES)
 
     def initialize(attributes)
+      super
+
       self.error = attributes.delete('Error').to_i
       attributes.each do |k, v|
         send "#{k.underscore}=", v
