@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  description: 'TODO: one-line summary of your gem'
+  name: ruby-postcodeanywhere
+spec:
+  lifecycle: experimental
+  owner: group:team/apply
+  type: service
